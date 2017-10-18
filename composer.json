@@ -1,0 +1,33 @@
+{
+    "name": "dasprid/phpapidoc",
+    "description": "PSR-5 compliant API doc generator",
+    "type": "project",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Ben Scholzen 'DASPRiD'",
+            "homepage": "https://dasprids.de/",
+            "email": "mail@dasprids.de"
+        }
+    ],
+    "keywords": [
+        "psr-5",
+        "api",
+        "doc",
+        "documentation",
+        "phpdoc",
+        "generator"
+    ],
+    "require": {
+        "roave/better-reflection": "^2.0",
+        "erusev/parsedown-extra": "^0.7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpApiDoc\\": "src/"
+        }
+    }
+}
